@@ -9,11 +9,16 @@ public class Avengers {
  public String weapon;
  public  String planet;
   public void getDetails() {
+	  System.out.println("name?");
 	  name = sc.next();
+	  System.out.println("age?");
 	  age = sc.nextInt();
-	  power = sc.nextLine();
-	  weapon = sc.nextLine();
-	  planet = sc.nextLine();
+	  System.out.println("power?");
+	  power = sc.next();
+	  System.out.println("weapon?");
+	  weapon = sc.next();
+	  System.out.println("planet");
+	  planet = sc.next();
 }
   public void displayDetails() {
 	  System.out.println("The name is "+ name);
